@@ -15,7 +15,7 @@ export async function summarize(text) {
     return output[0].summary_text;
 
   } catch (error) {
-    console.log("Na foi possivel realizae o resumo". error);
+    console.log("Não foi possivel realizar o resumo". error);
     throw new Error(error);
   }
 }
